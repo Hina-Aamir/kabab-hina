@@ -1,0 +1,169 @@
+*{
+    text-decoration-color:rgb(194, 153, 19) ;
+}
+.back{
+    height:100vh;
+    width:100vw;
+ }
+
+ 
+
+ .b1{
+    width:100vw;
+    height:5vh;
+    border-bottom:dotted;
+ }
+.hd1{
+    font-size:5cqh;
+    height:min-content;
+    width:100%;
+    background-color : gray;
+    display: flex;
+    justify-content:center;
+}
+img p{
+    position:relative;
+}
+
+/*ul{
+    list-style: none;
+    display: flex;
+    justify-items: space-around-evenly;
+}*/
+.parent{
+    width:100vw;
+    height:500px;
+    background-color: rgba(14, 13, 13, 0.986);
+    color:white;
+    display: flex;
+}
+
+
+.about1{
+    padding-top: 5em;
+    padding-left: 10em;
+    text-align: left;
+    line-height: 2em;
+    padding-right: 10em;
+}
+.pic{
+    padding-top: 4em;
+    padding-right: 4em;
+}
+/*.content {
+    padding: 20px 10px 0px 10px;
+}
+@media (max-width: 767px)
+.content {
+    padding: 10px 0;
+}
+.content {
+    padding: 20px 10px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}*/
+
+.call{
+    background-color: rgba(14, 13, 13, 0.986) ;
+    width:100vw;
+    height:200px;
+    text-align: center;
+    font-size: 50px;
+}
+a b{
+ 
+    color:rgb(194, 153, 19);
+   
+}
+a:hover {
+    text-decoration-line: underline;
+    text-decoration-color:rgb(194, 153, 19) ;
+}
+.contact{
+    height:400px;
+    width:100vw;
+background-image: url(./assets/image1.jfif);
+background-size:cover;
+    background-repeat: no-repeat;
+ display:flex;
+ flex-direction: stretch;
+ justify-content: left;
+margin-left: 0%;
+ padding-top: 3%;
+    
+}
+.ourloc h1{
+    text-align: center;
+}
+
+.ourloc{
+
+ height:700px;
+    background-color:rgb(63, 61, 61) ;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.picdisplay{
+
+    padding-top: 10%;
+    height: 200px;
+    width:200px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+h1{
+    text-align: center;
+}
+
+h4{
+    color:rgb(194, 153, 19);
+}
+.about2{
+    width: 24%;
+    padding-left: 2%;
+    list-style-position: outside;
+ 
+}
+.us ul{
+    width: 70%;
+    list-style-position: inside;
+    list-style: none;
+    list-style-type: none;
+}
+.worktime{
+   
+    width: 22%;
+}
+
+.location{
+  
+    width: 15%;
+}
+ h5{
+    color:beige;
+    font-size: large;
+    list-style: none;
+    text-transform: uppercase;
+    list-style-type: none;
+ } 
+footer{
+    height:50px;
+    width:100vw;
+    background-color: rgba(14, 13, 13, 0.986);
+    text-align: center;
+    color:bisque
+}
+span{
+    color:rgb(194, 153, 19);
+}
