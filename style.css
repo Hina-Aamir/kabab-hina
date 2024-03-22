@@ -1,27 +1,30 @@
-*{
-    text-decoration-color:rgb(194, 153, 19);
-    box-sizing:border ;}
-.back{
-    height:100vh;
-    width:100%;
-    background-image: url(assets/dodarya2.jfif);
-    background-position: fixed;
-    background-repeat: no-repeat;
+* {
+    text-decoration-color: rgb(194, 153, 19);
+    box-sizing: border;
+}
+
+.back {
+    height: 100vh;
+    width: 100%;
+    background-image: url(assets/kabaabjess-home-back.gif);
     background-size: cover;
- }
- .b1{
-    color:#fff;
-    width:100%;
-    height:5vh;
-    border-bottom:dotted;
- }
- .flex-container { 
+}
+
+.b1 {
+    color: #fff;
+    width: 100%;
+    height: 5vh;
+    border-bottom: dotted;
+}
+
+.flex-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-  }
-  .flex-container > div {
+}
+
+.flex-container>div {
     width: fit-content;
     margin: 5px;
     text-align: center;
@@ -34,40 +37,45 @@
     border-width: 1px;
     border-width: medium;
     box-sizing: content-box;
-    color:#fff;
+    color: #fff;
     border-color: #fff;
 
-  }
+}
 
-  .about-flex-container {
+.about-flex-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgb(44, 43, 43) ;
+    background-color: rgb(44, 43, 43);
     width: 100%;
-    height:fit-content;
-    margin:0px;
-    color:#fff;
+    height: fit-content;
+    margin: 0px;
+    color: #fff;
     padding-bottom: 10px;
-  }
-.about1{
+}
+
+.about1 {
     padding-top: 5em;
     padding-left: 10em;
     text-align: left;
     line-height: 2em;
 }
-.pic{
+
+.pic {
     padding-top: 4em;
 }
+
 .container {
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .section-titles {
-    color:rgb(194, 153, 19);;
+    color: rgb(194, 153, 19);
+    ;
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
@@ -75,54 +83,60 @@
     text-transform: uppercase;
     margin-top: 60px;
     margin-bottom: 30px;
-}   
-h6{
+}
+
+h6 {
     text-align: center;
 }
 
-.ourloc{
+.ourloc {
 
-    height:200px;
-    width:100%;
-       background-color:rgb(63, 61, 61) ;
-       display:flex;
-       flex-wrap: wrap;   
-   }
-
-
-
-
-a{
-    color:rgb(194, 153, 19);
+    height: 200px;
+    width: 100%;
+    background-color: rgb(63, 61, 61);
+    display: flex;
+    flex-wrap: wrap;
 }
-.call{
-    width:100%;
-    height:200px;
+
+
+
+
+a {
+    color: rgb(194, 153, 19);
+}
+
+.call {
+    width: 100%;
+    height: 200px;
     text-align: center;
     font-size: 50px;
 }
-a b{
- 
-    color:rgb(194, 153, 19);
-   
+
+a b {
+
+    color: rgb(194, 153, 19);
+
 }
+
 a:hover {
     text-decoration-line: underline;
-    text-decoration-color:rgb(194, 153, 19) ;
+    text-decoration-color: rgb(194, 153, 19);
 }
-.contact{ display:flex;
+
+.contact {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: left;
-    height:400px;
-    width:100%;
-background-image: url(./assets/image1.jfif);
-background-size:cover;
+    height: 400px;
+    width: 100%;
+    background-image: url(./assets/image1.jfif);
+    background-size: cover;
     background-repeat: no-repeat;
 
-margin-left: 0%;
- padding-top: 3%;
-    
+    margin-left: 0%;
+    padding-top: 3%;
+
 }
 
 .loc {
@@ -130,85 +144,91 @@ margin-left: 0%;
     background: #151515;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-h4{
-    color:rgb(194, 153, 19);
+h4 {
+    color: rgb(194, 153, 19);
 }
-.about2{
-    display:flexbox;
+
+.about2 {
+    display: flexbox;
     flex-direction: column;
     flex-wrap: wrap;
     padding-left: 2%;
     list-style-position: outside;
-    color:blanchedalmond;
+    color: blanchedalmond;
     text-align: left;
 }
- 
 
-.us ul{
+
+.us ul {
     list-style-position: inside;
     list-style: none;
     list-style-type: none;
-    color:blanchedalmond;
+    color: blanchedalmond;
 }
 
-.worktime{
-    color:blanchedalmond;
-}  
-
-
-.location{
- color:blanchedalmond;
- text-align: left;
+.worktime {
+    color: blanchedalmond;
 }
- h5{
-    color:beige;
+
+
+.location {
+    color: blanchedalmond;
+    text-align: left;
+}
+
+h5 {
+    color: beige;
     font-size: large;
     list-style: none;
     text-transform: uppercase;
     list-style-type: none;
- } 
-footer{
-    height:50px;
-    background-color: rgba(14, 13, 13, 0.986);
-    text-align: center;
-    color:bisque;
-    width:inherit;
 }
 
-.menu{
-    background-image: radial-gradient
-    (ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.6) 100%), url(assets/bgspecial.jfif);
+footer {
+    height: 50px;
+    background-color: rgba(14, 13, 13, 0.986);
+    text-align: center;
+    color: bisque;
+    width: inherit;
+}
+
+.menu {
+    background-image: radial-gradient (ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.6) 100%), url(assets/bgspecial.jfif);
     display: -webkit-flex;
     padding: 5px 0;
-}.box{
+}
+
+.box {
     background-color: #111111;
-    background-image:url(assets/bgbank.jfif);
+    background-image: url(assets/bgbank.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
     width: auto;
     height: 100%;
-    color:aliceblue;
+    color: aliceblue;
     display: flex;
     justify-content: center;
 }
-.bank{
-    width: auto;
-       
-        display: -webkit-flex;
-      
-    }
 
-.special-menu { 
+.bank {
+    width: auto;
+
+    display: -webkit-flex;
+
+}
+
+.special-menu {
     background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/back1.jpg);
     display: -webkit-flex;
     padding: 5px 0;
 }
+
 .parallax-box {
     background-color: #111111;
     background-size: cover;
@@ -222,9 +242,22 @@ footer{
 
 
 
-  @media screen and (min-width:360px){
-    .about-flex-container,.back,.bank,.special-menu,.contact,footer{
+@media screen and (min-width:360px) {
+
+    .about-flex-container,
+    .back,
+    .bank,
+    .special-menu,
+    
+    footer {
         flex-wrap: wrap;
-        width:100vw;
+        width: 100vw;
     }
-  }
+}
+@media screen and (min-width:300px){
+    .contact{
+        flex-wrap: wrap;
+      max-height: fit-content;
+      
+    }
+}
